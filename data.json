@@ -1,0 +1,19 @@
+{
+    "posts": [
+      {
+        "id": "1",
+        "title": "student",
+        "description": "hello i'm a student hello i'm a student"
+      },
+      {
+        "id": "2",
+        "title": "developer",
+        "description": "hello i'm a developer"
+      },
+      {
+        "id": "3",
+        "title": "designer",
+        "description": "hello i'm a designer"
+      }
+    ]
+  }

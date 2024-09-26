@@ -1,0 +1,382 @@
+.carousel-item {
+  background-image: url(https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto/v1/attachments/generic_asset/asset/84c449beda884aa8f9f72023e2d8b3fd-1705308514875/hero-md-x1.png);
+  color: white; /* Text color */
+  height: 470px; /* Height */
+  text-align: center; /* Center align text */
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 16px;
+  display: flex; /* Use flexbox to center text vertically */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center; /* Align items horizontally in the center */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  margin: 30px 20px ; /* 50px margin on top and bottom, 20px on left and right */
+}
+
+.bg-1{
+    position: relative;
+    top: 100px;
+}
+.bg-1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 42px; /* Adjusted for better responsiveness */
+    
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.2px;
+    font-size: 55px;
+  
+    
+}
+
+.bg-1 h1 span {
+    color: rgb(9, 143, 9);
+    font-weight: bold;
+}
+
+.form-controls {
+    padding: 13px;
+    width: 100%; /* Adjust width as necessary */
+    margin-top: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.form-controls::placeholder{
+    color: #746666;;
+}
+
+.trust{
+    position: relative;
+    top: 230px;
+}
+.trust a {
+    margin: 0 10px;
+    color: #fff; /* Change the link color to white */
+    text-decoration: none;
+    margin-left: 30px;
+}
+.search {
+    position: relative;
+    display: flex;
+}
+
+.card {
+    width: 8rem; /* Reduced width */
+    height: 130px; /* Reduced height */
+  background-color: white; /* Card background color */
+ /* Space inside the card */
+border-radius: 8px;     /* Rounded corners */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.logo {
+    height: 30px; /* Reduced logo height */
+    object-fit: contain; /* Maintains aspect ratio */
+}
+.card-body {
+    padding: .2rem; /* Reduce padding for body */
+}
+.card-title {
+    font-size: 1rem; /* Smaller font size */
+}
+.card-text {
+    font-size: 0.85rem; /* Smaller font size */
+}
+.col-md-1{
+    gap: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center; /* Center everything within the cards container */
+    margin-top: 20px; /* Add margin for spacing */
+    gap: 20px;
+}
+  .one{
+   width: 9%;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .one p{
+  position: relative;
+ top: 10px;
+  left: 12px ;
+  font-weight: bold;
+  font-family: 'poppins',sans-serif;
+  color:#646161;
+  }
+  .one img{
+    position: relative;
+    left: 10px;
+    top: 5px;
+  }
+  .service h1{
+position: relative;
+left: 35px ;
+font-size: 45px;
+color:#2c2828;
+  }
+  .servi1{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color: green;
+  }
+  .servi1 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .servi2{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color: orangered;
+  }
+  .servi2 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .servi3{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color:  rgb(23, 73, 23);
+  }
+  .servi3 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .servi4{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color:  rgba(59, 4, 30, 0.774);
+  }
+  .servi4 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .servi5{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color:  rgba(112, 112, 28, 0.849);
+  }
+  .servi5 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .servi6{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color:   rgba(59, 4, 30, 0.774);
+  }
+  .servi6 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .servi7{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color:  rgb(23, 73, 23);
+  }
+  .servi7 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .servi8{
+    padding: 70px;
+    border: 1px solid black;
+    border-radius: 9px;
+    height: 100px;
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    background-color:  rgb(23, 73, 23);
+  }
+  .servi8 p{
+    position: relative;
+    top: -40px;
+    left: -60px ;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+    color:#fff;
+  }
+  .slider {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    left: 20px;
+}
+
+.cards-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+/* Ensure the page doesn't scroll horizontally */
+body {
+    overflow-x: hidden;
+}
+
+/* Style the slider container */
+.slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Hide overflow content */
+    width: 100%; /* Adjust to your desired width */
+    max-width: 1200px; /* Adjust based on your design */
+    margin: 0 auto; /* Center the slider */
+}
+
+/* Style the cards container */
+.cards-container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+}
+
+/* Style individual cards */
+.card {
+    width: 150px; /* Adjust card width */
+    height: 180px; /* Adjust card height */
+    margin: 0 10px; /* Adjust margin between cards */
+     /* Card background color */
+    border-radius: 8px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+/* Style the navigation buttons */
+.prev, .next {
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 50%;
+    width: 40px; /* Button width */
+    height: 40px; /* Button height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px; /* Adjust icon size */
+    z-index: 1; /* Ensure buttons are on top */
+}
+
+.prev {
+    left: 10px; /* Adjust left position */
+}
+
+.next {
+    right: 10px; /* Adjust right position */
+}
+
+.prev:hover, .next:hover {
+    background-color: #555; /* Darker color on hover */
+}
+
+/* Optional: Add a subtle transition effect for buttons */
+.prev, .next {
+    transition: background-color 0.3s ease;
+}
+.NE1RNmt {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+._19aaquz1j {
+    width: var(--_19aaquz0);
+}
+._1rfvtgw1g {
+    border-radius: var(--mqvym546);
+}
+.serv {
+  width: 10rem; /* Reduced width */
+  height: 150px; /* Reduced height */
+background-color: green; /* Card background color */
+/* Space inside the card */
+border-radius: 8px;     /* Rounded corners */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+transition: transform 0.2s; /* Smooth transition for hover effect */
+gap: 20px;
+}
+.serv img{
+  background-color: #00732e;
+  width: 100%;
+  min-height: 235px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px; /* Adds space between cards on smaller screens */
+}
